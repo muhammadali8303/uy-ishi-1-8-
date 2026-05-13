@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 2500px;
+}
+.card1{
+    background-image: url(./muhammadali.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 300px;
+}
+.jamoa-cards{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.jamoa-card{
+    width: 100px;
+    text-align: center;
+ border-radius: 20px;
+    height: 300px;
+    transition: all 0.4s linear;
+    
+}
+.card2{
+      background-image: url(./dilshod.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.card3{
+      background-image: url(./izzat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.card4{
+      background-image: url(./otash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.card5{
+      background-image: url(./shaxboz.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.card6{
+      background-image: url(./firdavz.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.jamoa-info{
+    background-color: rgba(0, 0, 0, 0.316);
+    backdrop-filter: blur(2px);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    opacity: 0;
+    
+}
+.jamoa-card:hover .jamoa-info{
+opacity: 1;
+}
+.jamoa-card:hover{
+    width: 300px;
+    
+}
+.jamoa-card:hover .card1{
+    width: 100px;
+}
+
